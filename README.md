@@ -6,26 +6,38 @@ A simple project that simulates a digital clock using the ESP32 and an OLED disp
 
 🛠 Features
 
-    • Real-time clock simulation without an RTC module.
-    • Dynamically updates every second using millis().
-    • Clear and easy-to-read digital clock display.
-    • Compatible with 4-pin I2C OLED screens.
+   • Real-time clock simulation without an RTC module.
+   
+   • Dynamically updates every second using millis().
+   
+   • Clear and easy-to-read digital clock display.
+   
+   • Compatible with 4-pin I2C OLED screens.
 
 📸 Screenshot
 ![Bez názvu](https://github.com/user-attachments/assets/c3f608ed-99c5-435d-a596-11215d131a4e)
 
 ⚙️ Requirements
 
-    Hardware:
-        ESP32 development board.
-        OLED display (128x64, I2C, SSD1306).
-        Jumper wires and breadboard.
+   Hardware:
+   
+   •  ESP32 development board.
+   
+   •  OLED display (128x64, I2C, SSD1306).
+   
+   •  Jumper wires and breadboard.
+   
 
-    Software:
-        Arduino IDE with the following libraries installed:
-            Adafruit GFX Library
-            Adafruit SSD1306
-            Wire.h
+   Software:
+   
+   • Arduino IDE with the following libraries installed:
+   
+   • Adafruit GFX Library
+   
+   • Adafruit SSD1306
+   
+   • Wire.h
+
 
 🔧 Wiring
 
@@ -51,6 +63,8 @@ The code dynamically updates the time using the millis() function and formats it
 
 Key functions:
 
-    • displayTime(): Updates the OLED screen with the current time.
-    • setup(): Initializes the display and sets default values.
-    • loop(): Handles the time calculations and refresh rate.
+   • displayTime(): Updates the OLED screen with the current time.
+   
+   • setup(): Initializes the display and sets default values.
+   
+   • loop(): Handles the time calculations and refresh rate.
