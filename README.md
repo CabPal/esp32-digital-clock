@@ -25,6 +25,7 @@ A simple project that simulates a digital clock using the ESP32 and an OLED disp
         Arduino IDE with the following libraries installed:
             Adafruit GFX Library
             Adafruit SSD1306
+            Wire.h
 
 🔧 Wiring
 
